@@ -258,7 +258,7 @@ class MainActivity : AppCompatActivity(),OnClickListener {
             }
             R.id.b_percent->{
 
-
+                tvStatus.text="${tvStatus.text}%"
 
             }
             R.id.b_devide->{
