@@ -232,6 +232,7 @@ class MainActivity : AppCompatActivity(),OnClickListener {
                 if (str.isNotEmpty()){
 
                     tvStatus.text=str.substring(0,str.length-1)
+                    
 
                 }
 
@@ -258,32 +259,80 @@ class MainActivity : AppCompatActivity(),OnClickListener {
             }
             R.id.b_percent->{
 
-                tvStatus.text="${tvStatus.text}%"
+                if (tvStatus.text.last().isDigit()){
+
+                    tvStatus.text="${tvStatus.text}%"
+
+                }else{
+
+                    tvStatus.text="0"
+
+                }
 
             }
             R.id.b_devide->{
 
-                tvStatus.text="${tvStatus.text}/"
+                if (tvStatus.text.last().isDigit()){
+
+                    tvStatus.text="${tvStatus.text}/"
+
+                }else{
+
+                    tvStatus.text="0"
+
+                }
 
             }
             R.id.b_multiply->{
 
-                tvStatus.text="${tvStatus.text}*"
+                if (tvStatus.text.last().isDigit()){
+
+                    tvStatus.text="${tvStatus.text}*"
+
+                }else{
+
+                    tvStatus.text="0"
+
+                }
 
             }
             R.id.b_minus->{
 
-                tvStatus.text="${tvStatus.text}-"
+                if (tvStatus.text.last().isDigit()){
+
+                    tvStatus.text="${tvStatus.text}-"
+
+                }else{
+
+                    tvStatus.text="0"
+
+                }
 
             }
             R.id.b_plus->{
 
-                tvStatus.text="${tvStatus.text}+"
+                if (tvStatus.text.last().isDigit()){
+
+                    tvStatus.text="${tvStatus.text}+"
+
+                }else{
+
+                    tvStatus.text="0"
+
+                }
 
             }
             R.id.b_dot->{
 
-                tvStatus.text="${tvStatus.text}."
+                if (tvStatus.text.last().isDigit()){
+
+                    tvStatus.text="${tvStatus.text}."
+
+                }else{
+
+                    tvStatus.text="0"
+
+                }
 
             }
 

@@ -24,6 +24,10 @@
             android:textColor="@color/white"
             android:textSize="50sp" />
     </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/white"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -36,8 +40,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_marginRight="3dp">
+                android:layout_weight="1">
                 <Button
                     android:id="@+id/b_ac"
                     android:layout_width="match_parent"
@@ -45,14 +48,13 @@
                     app:backgroundTint="@null"
                     android:text="AC"
                     android:textSize="30sp"
-                    android:textColor="@color/white"
-                    android:background="#68FAFAFA"/>
+                    android:textColor="#FF5722"
+                    android:background="@drawable/bg1"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_marginRight="3dp">
+                android:layout_weight="1">
                 <Button
                     android:enabled="false"
                     android:id="@+id/b_percent"
@@ -61,20 +63,19 @@
                     app:backgroundTint="@null"
                     android:text="%"
                     android:textSize="30sp"
-                    android:textColor="@color/white"
-                    android:background="#68FAFAFA"/>/>
+                    android:textColor="#FF5722"
+                    android:background="@drawable/bg1"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_marginRight="3dp">
+                android:layout_weight="1">
                 <ImageButton
                     android:id="@+id/ib_clear"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/baseline_backspace_24"
-                    android:background="#68FAFAFA"/>
+                    android:background="@drawable/bg1"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -88,7 +89,7 @@
                     android:text="÷"
                     android:textSize="30sp"
                     android:textColor="@color/white"
-                    android:background="#FF9800"/>
+                    android:background="@drawable/bg2"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
