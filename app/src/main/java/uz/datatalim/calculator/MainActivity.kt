@@ -232,7 +232,7 @@ class MainActivity : AppCompatActivity(),OnClickListener {
                 if (str.isNotEmpty()){
 
                     tvStatus.text=str.substring(0,str.length-1)
-                    
+
 
                 }
 
@@ -259,79 +259,97 @@ class MainActivity : AppCompatActivity(),OnClickListener {
             }
             R.id.b_percent->{
 
-                if (tvStatus.text.last().isDigit()){
+                if(tvStatus.text.isNotEmpty()){
 
-                    tvStatus.text="${tvStatus.text}%"
+                    if (tvStatus.text.last().isDigit()){
 
-                }else{
+                        tvStatus.text="${tvStatus.text}%"
 
-                    tvStatus.text="0"
+                    }else{
+
+                        tvStatus.text=""
+
+                    }
 
                 }
 
             }
             R.id.b_devide->{
 
-                if (tvStatus.text.last().isDigit()){
+                if (tvStatus.text.isNotEmpty()){
 
-                    tvStatus.text="${tvStatus.text}/"
+                    if (tvStatus.text.last().isDigit()){
 
-                }else{
+                        tvStatus.text="${tvStatus.text}/"
 
-                    tvStatus.text="0"
+                    }else{
+
+                        tvStatus.text=""
+
+                    }
 
                 }
 
             }
             R.id.b_multiply->{
 
-                if (tvStatus.text.last().isDigit()){
+                if (tvStatus.text.isNotEmpty()){
 
-                    tvStatus.text="${tvStatus.text}*"
+                    if (tvStatus.text.last().isDigit()){
 
-                }else{
+                        tvStatus.text="${tvStatus.text}*"
 
-                    tvStatus.text="0"
+                    }else{
+
+                        tvStatus.text=""
+
+                    }
 
                 }
 
             }
             R.id.b_minus->{
 
-                if (tvStatus.text.last().isDigit()){
+                if(tvStatus.text.isNotEmpty()){
+                    if (tvStatus.text.last().isDigit()){
 
-                    tvStatus.text="${tvStatus.text}-"
+                        tvStatus.text="${tvStatus.text}-"
 
-                }else{
+                    }else{
 
-                    tvStatus.text="0"
+                        tvStatus.text=""
 
+                    }
                 }
 
             }
             R.id.b_plus->{
 
-                if (tvStatus.text.last().isDigit()){
+                if (tvStatus.text.isNotEmpty()){
+                    if (tvStatus.text.last().isDigit()){
 
-                    tvStatus.text="${tvStatus.text}+"
+                        tvStatus.text="${tvStatus.text}+"
 
-                }else{
+                    }else{
 
-                    tvStatus.text="0"
+                        tvStatus.text=""
 
+                    }
                 }
 
             }
             R.id.b_dot->{
 
-                if (tvStatus.text.last().isDigit()){
+                if (tvStatus.text.isNotEmpty()){
+                    if (tvStatus.text.last().isDigit()){
 
-                    tvStatus.text="${tvStatus.text}."
+                        tvStatus.text="${tvStatus.text}."
 
-                }else{
+                    }else{
 
-                    tvStatus.text="0"
+                        tvStatus.text=""
 
+                    }
                 }
 
             }
