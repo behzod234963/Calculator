@@ -233,7 +233,6 @@ class MainActivity : AppCompatActivity(),OnClickListener {
 
                     tvStatus.text=str.substring(0,str.length-1)
 
-
                 }
 
             }
