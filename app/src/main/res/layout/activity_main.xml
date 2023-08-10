@@ -44,7 +44,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1.1">
+                android:layout_weight="1.1"
+                android:paddingHorizontal="5dp"
+                android:paddingTop="5dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -57,7 +59,7 @@
                         android:text="AC"
                         android:textSize="30sp"
                         android:textColor="#FF5722"
-                        android:background="@drawable/bg1"/>
+                        android:background="@drawable/bg3"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -71,7 +73,7 @@
                         android:text="%"
                         android:textSize="30sp"
                         android:textColor="#FF5722"
-                        android:background="@drawable/bg1"/>
+                        android:background="@drawable/bg3"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -82,7 +84,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:src="@drawable/baseline_backspace_24"
-                        android:background="@drawable/bg1"/>
+                        android:background="@drawable/bg3"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -96,13 +98,14 @@
                         android:text="÷"
                         android:textSize="30sp"
                         android:textColor="#FF5722"
-                        android:background="@drawable/bg2"/>
+                        android:background="@drawable/bg3"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1.1">
+                android:layout_weight="1.1"
+                android:paddingHorizontal="5dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -157,13 +160,14 @@
                         android:text="x"
                         android:textSize="30sp"
                         android:textColor="#FF5722"
-                        android:background="@drawable/bg2"/>
+                        android:background="@drawable/bg3"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1.1">
+                android:layout_weight="1.1"
+                android:paddingHorizontal="5dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -220,13 +224,14 @@
                         android:text="-"
                         android:textSize="30sp"
                         android:textColor="#FF5722"
-                        android:background="@drawable/bg2"/>
+                        android:background="@drawable/bg3"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1.1">
+                android:layout_weight="1.1"
+                android:paddingHorizontal="5dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -282,13 +287,15 @@
                         android:text="+"
                         android:textSize="30sp"
                         android:textColor="#FF5722"
-                        android:background="@drawable/bg2"/>
+                        android:background="@drawable/bg3"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1.1">
+                android:layout_weight="1.1"
+                android:paddingHorizontal="5dp"
+                android:paddingBottom="5dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -301,7 +308,7 @@
                         android:text="0"
                         android:textSize="30sp"
                         android:textColor="@color/white"
-                        android:background="@drawable/bg1"/>
+                        android:background="@drawable/bg4"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -315,7 +322,7 @@
                         android:text="."
                         android:textSize="30sp"
                         android:textColor="#FF5722"
-                        android:background="@drawable/bg1"/>
+                        android:background="@drawable/bg3"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -329,7 +336,7 @@
                         android:text="="
                         android:textSize="30sp"
                         android:textColor="#FF5722"
-                        android:background="@drawable/bg2"/>
+                        android:background="@drawable/bg3"/>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
